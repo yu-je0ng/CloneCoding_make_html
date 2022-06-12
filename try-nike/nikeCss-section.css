@@ -1,0 +1,36 @@
+#main-door{
+    display: flex;
+    height: 450px;
+    padding: 0% 0% 0% 3%;
+}
+
+#main-door:nth-child(0){
+    width: 50%;
+}
+#main-door:nth-child(1){
+    width: 50%;
+}
+
+button{
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 130px;
+    margin-top: 15px;
+}
+
+.part{text-align: center; margin-top: 30px;}
+.title{font-size: 53px;}
+.content{font-size: 18px; margin: 10px 0px 10px 0px;}
+
+.sub-title{text-align:left; margin-left: 80px; margin-bottom: 20px; font-size: 20px; font-weight: bold;}
+
+.divided{
+    padding: 0% 0% 0% 2.5%;
+    position: relative;
+    clear: both;
+}
