@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="nickCss-basic.css" type="text/css">
     <link rel="stylesheet" href="nikeCss-header.css" type="text/css">
     <link rel="stylesheet" href="nikeCss-section.css" type="text/css">
+    <link rel="stylesheet" href="nikeCss-footer.css" type="text/css">
 </head>
 <body>
     <header>
@@ -37,13 +38,16 @@
                     <a>Women</a>
                     <a>Kids</a>
                     <a>Sale</a>
-                    <a>Re, Play</a>
+                    <a style="color: #ff5001;">Re, Play 프로젝트</a>
                 </nav>
             </div>
             <div id="menu-right">
-                <div id="search"><input></div>
-                <div id="like"><img></div>
-                <div id="cart"><img></div>
+                <div id="search">
+                    <div><img src="/resorces/img/free-icon-search-interface-symbol-54481.png" alt="검색" width="25px" height="25px" ></a></div>
+                    <input type="text" value="" name="">
+                </div>
+                <div id="like"><img src="/resorces/img/free-icon-heart-shape-14815.png" alt="좋아요" width="30px" height="30px"></div>
+                <div id="cart"><img src="/resorces/img/free-icon-shopping-bag-7596622.png" alt="장바구니" width="30px" height="30px"></div>
             </div>
         </div>
     </header>
@@ -63,7 +67,7 @@
                     </p>
                 </div>
                 <div style="border-left: 3px solid black; border-bottom: 3px solid black;">
-                    <img src="https://static-breeze.nike.co.kr/kr/ko_kr//cmsstatic/structured-content/65250/220531_cdp_replay_p1_bg2.jpg" alt="movetozero2" width="990px" height="440px">
+                    <img src="https://static-breeze.nike.co.kr/kr/ko_kr//cmsstatic/structured-content/65250/220531_cdp_replay_p1_bg2.jpg" alt="movetozero2" width="960px" height="440px">
                 </div>
             </div>
         </div>
@@ -139,7 +143,9 @@
             </div>
         </div> 
         <dii class="part">
-            <img src="resorces/img/220516_hp_p3_bg.jpg" alt="라디오 신발" width="1950px" height="800px">
+            <div id="radio">
+                <img src="resorces/img/220516_hp_p3_bg.jpg" alt="라디오 신발" width="1950px" height="800px">
+            </div>
         </dii>
         <div class="part">
             <div>
@@ -148,54 +154,34 @@
                 <button>구매하기</button>
             </div>
         </div>
-        <div class="part">
+        <div class="part" style="margin-bottom: 10em;" >
             <p class="sub-title">Trending Now</p>
             <div class="divided">
-                <div style="float: left; padding: 0px 0px 0px 15px;">
-                    <img src="resorces/img/20609_hp_p7a_bg_16.jpg" alt="여성 한명 러닝"  width="1000px" height="800px">
+                <div id="dividedFirst">
+                    <img src="resorces/img/20609_hp_p7a_bg_16.jpg" alt="여성 한명 러닝"  width="980px" height="800px">
                     <p class="content">여성 러닝 스타일</p>
                     <button>구매하기</button>
                 </div>
-                <div style="float: right; padding: 0px 15px 0px 0px ;">
-                    <img src="resorces/img/220519_hp_p7_bg2.jpg" alt="여성 세명"  width="990px" height="800px">
+                <div id="dividedSecond">
+                    <img src="resorces/img/220519_hp_p7_bg2.jpg" alt="여성 세명"  width="980px" height="800px">
                     <p class="content">조던 에센셜</p>
                     <button>구매하기</button>
                 </div>
             </div>
         </div>
-        <div class="part" style="border: 1px solid red;">
-            <p class="sub-title">Featured Shoes</p>
-            <div>
-                <div>
-                    <img>
-                    <p>나이키 에어맥스97 OG</p>
-                    <p>남성 신발<br>219,00원</p>
-                </div>
-                <div>
-                    <img>
-                    <p>나이키 에어맥스 코코</p>
-                    <p>여성 샌들<br>119,00원</p>
-                </div>
-                <div>
-                    <img>
-                    <p>나이키 TC 7900</p>
-                    <p>남성 신발<br>219,00원</p>
-                </div>
-            </div>
-        </div>
-        <div class="part" style="border: 1px solid red;">
+        <div class="part" style="margin-bottom: 20em;">
             <p class="sub-title" >Apparel Essentials</p>
-            <div>
-                <div>
-                    <img> 
+            <div id="bottomDivided">
+                <div id="bottomDividedFirst">
+                    <img src="/resorces/img/220331_hp_p8_bg1.jpg" alt="탑티셔츠" width="650px" height="700px"> 
                     <p>탑 & 티셔츠</p>
                 </div>
-                <div>
-                    <img>
+                <div id="bottomDividedSecond">
+                    <img src="/resorces/img/220331_hp_p8_bg2.jpg" alt="팬츠타이즈" width="650px" height="700px">
                     <p>팬츠 & 타이츠</p>
                 </div>
-                <div>
-                    <img>
+                <div id="bottomDividedThird">
+                    <img src="/resorces/img/220331_hp_p8_bg3.jpg" alt="숏팬츠" width="650px" height="700px">
                     <p>숏 팬츠</p>
                 </div>
             </div>
@@ -241,26 +227,25 @@
                 </dl>
             </div>
         </div>
-        <div >
-            <div>
-                <a  class="bot-link" >대한민국</a>
-                <p>&copy;2022 Nike, lnc.All Right Reserved</p>
+        <div class="aboutReserved">
+            <div style="display: block; position: absolute; left: 10px;" >
+                <a class="bot-link" >대한민국</a>
+                <p style="display: inline-block;">&copy;2022 Nike, lnc.All Right Reserved</p>
             </div>
-            <div>
-                <p>이용약관</p>
-                <p>개인정보처리방침</p>
+            <div style="display: block; position: absolute; right: 20px;" >
+                <a>이용약관</a>
+                <a>개인정보처리방침</a>
             </div>
-
         </div>
-        <div style="text-align: center; padding: 3px 450px 0px 450px;" >
-            <p style="float: left; text-align: left; font-size: 13px;" >
+        <div class="aboutAll" >
+            <p style="display: block; font-size: 13px; text-align: left; left: 500px;" >
                 (유)나이키코리아 대표 Kimberlee Lynn Mendes, 킴벌리 린 창 멘데스 <br>
                 서울 강남구 테헤란로 152 강남파이낸스센터 30층<br>
                 통신판매업신고번호 2011-서울강남-03461 	&#124; 등록번호 220-88-09068 <a class="bot-link">사업자 정보확인</a><br>
                 고객센터 전화문의 <a class="bot-link">080-022-0182</a><br>
                 FAX 02-6744-5880 &#124; E-mail service&#64;neike.co.kr &#124; 호스팅서비스사업자 (유)나이키코리아 
             </p>      
-            <p style="float: right;text-align: left; font-size: 13px;">
+            <p style="display: block; font-size: 13px; text-align: left; right: 600px;">
                 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한<br>
                 KG 이니시스의 구매안전 서비스(채무지급보증)를 이용하실 수 있습니다.
                 <br>

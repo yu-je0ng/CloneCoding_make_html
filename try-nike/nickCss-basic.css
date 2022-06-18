@@ -2,6 +2,8 @@
     padding: 0px;
     margin: 0px;
     /* border: 0.1px solid skyblue; */
+    font-family: 'Noto Sans KR'
+    
 }
 
 section{
@@ -9,25 +11,9 @@ section{
     height: 900px;
 }
 
-
-footer{
-    width: 100%;
-    height: 660px;
-    background-color: #111111;
-    color: #999999;
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url(https://fonts.gstatic.com/s/notosanskr/v27/PbykFmXiEBPT4ITbgNA5Cgm20xz64px_1hVWr0wuPNGmlQNMEfD4.0.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
 }
-
-.about{
-    text-align: left;
-    height: 300px; 
-    display: flex;
-    justify-content: space-evenly;
-    border: 0.01px solid gray;
-    padding: 20px 70px 80px 70px;
-    font-size: 15px;
-}
-dt{ color: white;}
-dd{ font-size: small;}
-.social{ object-fit: cover; }
-
-.bot-link{color: white;}

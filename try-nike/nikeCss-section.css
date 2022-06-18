@@ -29,8 +29,98 @@ button{
 
 .sub-title{text-align:left; margin-left: 80px; margin-bottom: 20px; font-size: 20px; font-weight: bold;}
 
+
+
+
 .divided{
-    padding: 0% 0% 0% 2.5%;
     position: relative;
     clear: both;
 }
+
+#dividedFirst{
+    display: inline-block;
+    position: relative;
+}
+
+#dividedFirst > p {
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+#dividedFirst > button {
+    position: absolute;
+    top: 700px;
+    left: 45px;
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+#dividedSecond{
+    display: inline-block;
+    position: relative;
+}
+
+#dividedSecond > p {
+    position: absolute;
+    top: 650px;
+    left: 73px;
+    color: aliceblue;
+    font-size: 25px;
+
+}
+#dividedSecond > button {
+    position: absolute;
+    top: 700px;
+    left: 45px;
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+#bottomDivided{
+    position: relative;
+    clear: both;
+}
+
+#bottomDividedFirst{
+    display: inline-block;
+    position: relative;
+}
+#bottomDividedFirst > p {
+    position: absolute;
+    top: 630px;
+    left: 55px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#bottomDividedSecond{
+    display: inline-block;
+    position: relative;
+}
+#bottomDividedSecond> p {
+    position: absolute;
+    top: 630px;
+    left: 55px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#bottomDividedThird{
+    display: inline-block;
+    position: relative;
+}
+
+#bottomDividedThird> p {
+    position: absolute;
+    top: 630px;
+    left: 55px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
